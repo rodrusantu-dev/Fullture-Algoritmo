@@ -18,7 +18,7 @@ Inicio
 //PRIMEIRO OBJETIVO
 cronometro on   //faz a contagem do tempo do almoritmo
 timer (1000) // tempo de execução do código em milisegundos)
-escrevaL ("SEQUENCIA TROCA PNEU")//escraval escreve tela + quebralinha
+escreval ("SEQUENCIA TROCA PNEU")//escraval escreve tela + quebralinha
 escreval ("parar o carro")
 escreval ("pegar equipamentos")
 escreval ("tirar pneu furado")
