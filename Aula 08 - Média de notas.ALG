@@ -3,7 +3,7 @@ Algoritmo "Aula 08 - Média de Nota"
 // Calcula a média de três notas
 Var
 
-notaUm, notaDois, notaTres: inteiro
+notaUm, notaDois, notaTres: real
 media : real
 nome: caractere
 
@@ -12,11 +12,11 @@ Inicio
   
   escreval ("*** COLÉGIO DA VIDA ***")
   escreval ("SIMULAÇÃO PARA MÉDIA DE NOTAS")
-  timer (2000)
+  timer (1000)
   
   escreval ("Olá seja bem vindo, qual seu PRIMEIRO nome? ")
   leia (nome)
-  escreval ("Olá agora vamos calcular sua média", nome)
+  escreval ("Olá agora vamos calcular sua média  ", nome)
   Limpatela
   
   escreval ("Digita a nota do Primeiro Trimestre: ")
@@ -25,7 +25,8 @@ Inicio
   leia (notaDois)
   escreval ("Digita a nota do Terceiro Trimestre: ")
   leia (notaTres)
-       media <- (notaUM + notaDois + notaTres) / 3
+
+  media <- (notaUM + notaDois + notaTres) / 3
 
   Limpatela
   timer (1000)
@@ -33,15 +34,15 @@ Inicio
   escreval ("Sua média foi de: ", media)
   
   Se (media) > 7 entao
-  escreval ("APROVADO")
+      escreval ("Você está APROVADO, com a média: ",media)
   Fimse
   
   Se (media) = 7 entao
-  escreval ("PASSOU RASPANDO")
+     escreval ("PASSOU RASPANDO, ou seja média: ",media)
   Fimse
   
   Se (media) < 7 entao
-  escreval ("REPROVADO")
+      escreval ("Você não passou de ano, REPROVADO com média: ",media)
   Fimse
 
 Fimalgoritmo
