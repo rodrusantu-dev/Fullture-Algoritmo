@@ -1,11 +1,6 @@
 Algoritmo "Aula 02 - Aplicando Variaveis"
 
 Var
-// inteiro- nm inteiros
-// real - nm com casas decimais
-// caractere - cadeia caracteres
-// logico - true or false (valores booleanos)
-//nome escolhido: TIPO da variavel
 
 idade: inteiro
 nome: caractere

@@ -1,5 +1,4 @@
 Algoritmo "Aula 05 - Fundação SE SENAO ENTAO"
-//O que esse algoritmo faz:
 
 Var
 // TIPOS DE VARIAVEIS
@@ -11,8 +10,6 @@ logico - true ou false
 idade: inteiro
 
 // BLOCO FECHADO
-
-
 
 Inicio
 
