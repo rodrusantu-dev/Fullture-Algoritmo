@@ -3,7 +3,7 @@
 const promptSync = require('prompt-sync')
 const prompt = promptSync()
 
-// Pedir para usuário digitar um número e dizer se ele é POSITIVO ou NEGATIVO
+// CALCULA SE O NÚMERO É POSITIVO OU NEGATIVO
 
     let number = prompt("Digite um número: ")
     if (number >= 0) {
